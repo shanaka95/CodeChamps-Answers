@@ -1,0 +1,6 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week5/challenges/decrypt-caesar-cipher
+
+Answer (Python)-
+
+a,b,c=input(),raw_input(),input()
+print ''.join(map(lambda x: chr((ord(x)-96-c)%26+96),b)).replace('`','z')

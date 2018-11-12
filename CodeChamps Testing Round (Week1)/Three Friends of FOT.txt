@@ -1,0 +1,6 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-testing-round/challenges/three-friends-1/submissions/code/1311147824
+
+Answer (Python)-
+
+inp=map(sum,[map(int,raw_input().split()),map(int,raw_input().split()),map(int,raw_input().split())])
+print 'NoLuck' if inp[0]==inp[1] or inp[0]==inp[2] or inp[2]==inp[1] else 'Sahan' if inp[0]>inp[1] and inp[0]>inp[2] else 'Thushan' if inp[1]>inp[0] and inp[1]>inp[2] else 'Ushan'

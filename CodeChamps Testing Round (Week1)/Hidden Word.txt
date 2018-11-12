@@ -1,0 +1,8 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-testing-round/challenges/hidden-word
+
+Answer (Python)-
+
+for i in range(5):
+    if raw_input()=='japurafot':
+        print i+1
+        break

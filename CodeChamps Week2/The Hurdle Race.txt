@@ -1,0 +1,8 @@
+Find the Question at https://www.hackerrank.com/contests/codechamps-week2/challenges/the-hurdle-race
+
+Answer (Python)-
+
+n,k = raw_input().strip().split(' ')
+n,k = [int(n),int(k)]
+height = map(int, raw_input().strip().split(' '))
+print max(height)-k if max(height)-k>=0 else 0

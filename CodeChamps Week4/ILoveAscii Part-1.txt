@@ -1,0 +1,5 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week4/challenges/iloveascii-part-1
+
+Answer (Python)-
+
+print ord(raw_input())

@@ -1,0 +1,6 @@
+Find the Question at https://www.hackerrank.com/contests/codechamps-week2/challenges/star-wars-1-1
+
+Answer (Python)-
+
+for i in range (1,input()+1):
+    print '*'*i

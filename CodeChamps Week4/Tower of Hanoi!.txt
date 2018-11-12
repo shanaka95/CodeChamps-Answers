@@ -1,0 +1,18 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week4/challenges/tower-of-hanoi-8-2
+
+Answer (Python)-
+
+s=1
+def TowerOfHanoi(n , from_rod, to_rod, aux_rod):
+    global s
+    if n == 1: 
+        print "Step",str(s),": Shift disk 1 from rod",from_rod,"to rod",to_rod
+        s+=1
+        return
+    TowerOfHanoi(n-1, from_rod, aux_rod, to_rod) 
+    print "Step",str(s),": Shift disk",n,"from rod",from_rod,"to rod",to_rod
+    s+=1
+    TowerOfHanoi(n-1, aux_rod, to_rod, from_rod) 
+ 
+n = input()
+TowerOfHanoi(n, 'A', 'C', 'B') 

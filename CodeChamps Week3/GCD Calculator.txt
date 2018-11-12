@@ -1,0 +1,16 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week3/challenges/log2basex
+
+Answer (Python)-
+
+Easy Solution with python-
+
+from fractions import gcd
+print gcd(input(),input())
+
+Another Solution -
+
+def gcd(a, b):
+    while b:
+        a, b = b, a%b
+    return a 
+print gcd(input(),input())

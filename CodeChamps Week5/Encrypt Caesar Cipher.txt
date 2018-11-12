@@ -1,0 +1,6 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week5/challenges/encrypt-caesar-cipher
+
+Answer (Python)-
+
+a,b,c=input(),raw_input(),input()
+print ''.join(map(lambda x:chr(((ord(x.lower())+c-96)%26)+96) if ord(x.lower()) in range(97,97+26) else x,b) ).replace('`','z')

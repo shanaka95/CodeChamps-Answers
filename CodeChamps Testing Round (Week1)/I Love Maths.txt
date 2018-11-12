@@ -1,0 +1,10 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-testing-round/challenges/i-love-maths
+
+Answer (Python)-
+
+def fac(n):
+    if n==1:
+        return 1
+    else:
+        return fac(n-1)*n
+print fac(input())*fac(input())

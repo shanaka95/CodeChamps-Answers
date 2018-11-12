@@ -1,0 +1,7 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-testing-round/challenges/staircase
+
+Answer (Python)-
+
+x=input()
+for i in range(x):
+    print (x-i-1)*' '+(i+1)*'#'

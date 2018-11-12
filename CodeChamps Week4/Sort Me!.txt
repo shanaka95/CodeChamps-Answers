@@ -1,0 +1,7 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week4/challenges/sort-me-1
+
+Answer (Python)-
+
+inp=raw_input()
+print ''.join(sorted(inp))
+print ''.join(sorted(inp)[::-1])

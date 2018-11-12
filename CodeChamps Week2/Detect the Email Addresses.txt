@@ -1,0 +1,15 @@
+Find the Question at https://www.hackerrank.com/challenges/detect-the-email-addresses/submissions/code/86325764
+
+Answer (Python)-
+
+import re
+x=[]
+for i in range(input()):
+    inp=raw_input()
+    y=re.findall(r'[a-zA-Z][-_.a-zA-Z0-9]+[@][a-zA-Z]+[.][.a-zA-Z]{1,15}',inp)
+    for j in y:
+        if j[-1]=='.':
+            y.remove(j)
+            y.append(j[:-1])
+    x+=y
+print ';'.join(sorted(set(x)))

@@ -1,0 +1,13 @@
+Find the Question at https://www.hackerrank.com/contests/codechamps-week2/challenges/grading
+
+Answer (Python)-
+
+for i in xrange(input()):
+    mark=input()
+    if mark<38:
+        print mark
+    elif mark%5>2:
+        print mark+(5-mark%5)
+    else:
+        print mark
+        

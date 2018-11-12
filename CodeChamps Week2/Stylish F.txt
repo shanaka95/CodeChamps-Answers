@@ -1,0 +1,9 @@
+Find the Question at https://www.hackerrank.com/contests/codechamps-week2/challenges/stylish-f
+
+Answer (Python)-
+
+print """#####
+#
+#####
+#
+#"""

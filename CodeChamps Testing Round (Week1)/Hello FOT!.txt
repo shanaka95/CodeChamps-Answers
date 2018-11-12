@@ -1,0 +1,5 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-testing-round/challenges/hello-fot
+
+Answer (Python)-
+
+print "Hello FOT!"

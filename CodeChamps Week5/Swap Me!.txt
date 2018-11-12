@@ -1,0 +1,5 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week5/challenges/swap-me-1
+
+Answer (Python)-
+
+print raw_input().upper()

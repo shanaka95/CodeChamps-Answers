@@ -1,0 +1,18 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week5/challenges/predict-caesars-key
+
+Answer (Python)-
+
+inp=raw_input()
+d={}
+for i in inp:
+  if ord(i.lower()) in range(97,97+26):
+    if i in d.keys():
+        d[i]+=1
+    else:
+        d[i]=1
+for i in d:
+    if d[i]==max(map(int,d.values())):
+        m=i
+
+cc= abs(ord('e')-ord(m)) if ord('e')-ord(m) < 0 else ord('z')-ord('e')+ord(m)-96
+print ''.join(map(lambda x: chr((ord(x)-96-cc)%26+96) if ord(x.lower()) in range(97,97+26) else x ,inp)).replace('`','z')

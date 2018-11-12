@@ -1,0 +1,18 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week5/challenges/print-thefibonaccisequence
+
+Answer (Python)-
+
+global d
+d={0:0,1:1}
+def F(n):
+    global d
+    if n == 0: return 0
+    elif n == 1: return 1
+    if n in d:
+        return d[n]
+    else:
+        x=F(n-1)+F(n-2)
+        d[n]=x
+        return x
+F(input())
+print ' '.join(map(str,d.values()))

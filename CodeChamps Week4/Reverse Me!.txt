@@ -1,0 +1,5 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week4/challenges/reverse-me-1-2
+
+Answer (Python)-
+
+print raw_input()[::-1]

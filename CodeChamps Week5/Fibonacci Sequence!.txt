@@ -1,0 +1,17 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week5/challenges/fibonacci-sequence-5
+
+Answer (Python)-
+
+global d
+d={}
+def F(n):
+    global d
+    if n == 0: return 0
+    elif n == 1: return 1
+    if n in d:
+        return d[n]
+    else:
+        x=F(n-1)+F(n-2)
+        d[n]=x
+        return x
+print F(input())

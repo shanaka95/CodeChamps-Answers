@@ -1,0 +1,7 @@
+Find the Question at https://www.hackerrank.com/contests/codechamps-week2/challenges/happy-student-of-fot
+
+Answer (Python)-
+
+for i in range(int(raw_input().split()[1])-1):
+    raw_input()
+print raw_input()  

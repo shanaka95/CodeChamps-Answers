@@ -1,0 +1,6 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-testing-round/challenges/a-very-big-sum/submissions/code/1311147713
+
+Answer (Python)-
+
+input()
+print sum(map(int,raw_input().split()))

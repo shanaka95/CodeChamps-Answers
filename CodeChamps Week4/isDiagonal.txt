@@ -1,0 +1,22 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week3/challenges/isdiagonal/submissions/code/1310901316
+
+Answer (Python)-
+
+inp=int(raw_input().split('x')[0])
+y=True   
+mc=0
+for i in range(inp):
+    
+    x=map(int,map(lambda x:x.replace(']','') ,map(lambda x:x.replace('[','') ,raw_input().split())))
+    if x[i]!=0:
+        mc+=1
+    if sum(x[:i]+x[i+1:])!=0:
+        print "not a diagonal matrix"
+        
+        y=False
+        break
+if y:
+    if mc>0:
+        print "diagonal matrix"
+    else:
+        print "not a diagonal matrix"

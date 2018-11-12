@@ -1,0 +1,9 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week3/challenges/all-stc
+
+Answer (Python)-
+
+import math
+angle=input()
+print "sin {:} = {:.4f}".format(str(angle),round(math.sin(math.radians(angle)),4))
+print "cos {:} = {:.4f}".format(str(angle),round(math.cos(math.radians(angle)),4))
+print "tan {:} = {:.4f}".format(str(angle),round(math.tan(math.radians(angle)),4))

@@ -1,0 +1,5 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week5/challenges/change-case-1
+
+Answer (Python)-
+
+print ''.join(map(lambda y:y.lower() if ord(y)<90 else y.upper() ,raw_input()))

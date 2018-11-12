@@ -1,0 +1,24 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-testing-round/challenges/encryption
+
+Answer (Python)-
+
+import math
+inp=raw_input().strip().translate(None,' ')
+def main(inp):
+    ln=len(inp)
+    res=[]
+    rows=int(math.floor(math.sqrt(ln)))
+    cols=int(math.ceil(math.sqrt(ln)))
+    for i in range(rows+1):
+        res.append(inp[:cols])
+        inp=inp[cols:]
+    rs=''''''
+    for i in range(len(res)+1):
+        for j in range(len(res)+1):
+            try:
+                rs+=res[j][i]
+            except:
+                if rs[-1]!=' ':
+                    rs+=' '                    
+    return rs
+print main(inp)

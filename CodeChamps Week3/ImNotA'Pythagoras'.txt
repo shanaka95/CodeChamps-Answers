@@ -1,0 +1,7 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week3/challenges/imnotapythagoras/submissions/code/1311147956
+
+Answer (Python)-
+
+import math
+print int(math.sqrt(sum(map(lambda x:x**2,map(int,raw_input().split())))))
+    

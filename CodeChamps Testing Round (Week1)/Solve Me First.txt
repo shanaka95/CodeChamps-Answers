@@ -1,0 +1,12 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-testing-round/challenges/solve-me-first
+
+Answer (Python)-
+
+def solveMeFirst(a,b):
+	return a+b
+
+
+num1 = input()
+num2 = input()
+res = solveMeFirst(num1,num2)
+print res

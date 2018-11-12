@@ -1,0 +1,15 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week3/challenges/gamefot
+
+Answer (Python)-
+
+def minion_game(inp):
+    ln=len(inp)
+    q,w=0,0
+    vow=['A','E','O','U','I']
+    for i in range(len(inp)):
+        if inp[i] in vow:
+            w+=ln-i
+        else:
+            q+=ln-i
+    print "%d Nuwan\n%d Kavinda" % (q,w) if q>w else "%d Kavinda\n%d Nuwan" % (w,q) if w>q else "drawn"
+minion_game(raw_input())

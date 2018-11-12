@@ -1,0 +1,5 @@
+Find the Question at https://www.hackerrank.com/contests/codechamps-week2/challenges/lucky-number-7-3
+
+Answer (Python)-
+
+print sum(map(int,list(''.join(raw_input().split('-')))))

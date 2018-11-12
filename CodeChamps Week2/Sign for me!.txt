@@ -1,0 +1,5 @@
+Find the Question at https://www.hackerrank.com/contests/codechamps-week2/challenges/sign-for-me
+
+Answer (Python)-
+
+print "Do not sign for him" if raw_input()=='wake' and raw_input()=='not sick' else 'Sign for him'

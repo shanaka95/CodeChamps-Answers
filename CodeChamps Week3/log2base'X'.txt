@@ -1,0 +1,7 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-week3/challenges/log2basex
+
+Answer (Python)-
+
+import math
+inp=map(int,raw_input().split())
+print "{:.4f}".format(round(math.log(inp[0], inp[1]),4))

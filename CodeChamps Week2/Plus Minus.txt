@@ -1,0 +1,25 @@
+Find the Question at https://www.hackerrank.com/contests/codechamps-week2/challenges/plus-minus
+
+Answer (Python)-
+
+raw_input()
+c=0
+xx=raw_input()
+xxx=map(lambda x:x if x==abs(x) and x!=0 else '',map(int,xx.split(' ')))
+for i in xxx:
+    if i!='':
+        c+=1
+print '%.6f'%(float(c)/len(xxx))
+c=0
+xxx=map(lambda x:x if x!=abs(x) and x!=0 else '',map(int,xx.split(' ')))
+for i in xxx:
+    if i!='':
+        c+=1
+print '%.6f'%(float(c)/len(xxx))
+c=0
+xxx=map(lambda x:x if x==0 else '',map(int,xx.split(' ')))
+for i in xxx:
+    if i!='':
+        c+=1
+print '%.6f'%(float(c)/len(xxx))
+        

@@ -1,0 +1,5 @@
+Find the Question at https://www.hackerrank.com/contests/fot-codechamps-testing-round/challenges/solve-me-first
+
+Answer (Python)-
+
+print "Lucky Student of FOT is "+raw_input()
